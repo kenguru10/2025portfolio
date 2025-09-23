@@ -9,7 +9,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen bg-[#F6F6F6]">
       <header className="bg-white m-3 px-5 py-1 flex items-center rounded-xl text-gray-800 fade-in fade-delay-0">
         <a href="/" className="font-bold">KENKONG</a>
-        <a href="" className="bg-gray-800 text-white ms-auto px-5 py-3 my-2 text-sm rounded-full shadow-md fade-in fade-delay-2">Contact Me</a>
+        <a href="mailto:tinyken20@outlook.com" className="bg-gray-800 text-white ms-auto px-5 py-3 my-2 text-sm rounded-full shadow-md fade-in fade-delay-2">Contact Me</a>
       </header>
 
       <section className="px-5 md:px-40 mt-10">
@@ -17,7 +17,7 @@ export default function Home() {
           <div className="flex flex-col max-w-lg fade-in-up fade-delay-1">
             <h1 className="text-6xl font-bold text-gray-800 fade-in fade-delay-2">Hi, I'm Ken Kong. A Full-Stack Developer</h1>
             <p className="text-base text-gray-500 my-10 fade-in fade-delay-3">I have 4 years of experience in building web applications with startups and established companies.</p>
-            <a href="#" className="bg-gray-800 w-fit text-white px-5 py-3 my-2 text-sm rounded-full shadow-md fade-in fade-delay-4">Contact Me</a>
+            <a href="mailto:tinyken20@outlook.com" className="bg-gray-800 w-fit text-white px-5 py-3 my-2 text-sm rounded-full shadow-md fade-in fade-delay-4">Contact Me</a>
           </div>
           <div className="flex flex-col ms-0 md:ms-auto">
             <div className="relative w-[200px] h-[200px] fade-in fade-delay-2">
@@ -122,7 +122,7 @@ export default function Home() {
       <section className="my-10 grid grid-cols-1 md:grid-cols-2 mx-15 gap-5">
         <div className="bg-gray-200 rounded-lg flex flex-col px-10 py-5 min-h-fit md:min-h-[200px] w-full">
           <h1 className="text-gray-800 text-3xl">Wanna see <br /> my work?</h1>
-          <a href="" className="bg-gray-800 text-white px-5 py-3 mt-10 mb-3 text-sm rounded-full shadow-md w-fit">Contact Me</a>
+          <a href="mailto:tinyken20@outlook.com" className="bg-gray-800 text-white px-5 py-3 mt-10 mb-3 text-sm rounded-full shadow-md w-fit">Contact Me</a>
         </div>
         <div className="bg-gray-200 rounded-lg flex flex-col px-10 py-5 min-h-fit md:min-h-[200px] w-full">
           <PolyuIcon className="w-12 h-fit my-5 text-gray-800" />
@@ -159,9 +159,9 @@ export default function Home() {
           </div>
 
           <nav className="flex flex-col md:flex-row items-center gap-3 text-sm">
-        <a href="#contact" className="hover:underline">Contact</a>
-        <a href="/privacy" className="hover:underline">Privacy</a>
-        <a href="/terms" className="hover:underline">Terms</a>
+        <a href="mailto:tinyken20@outlook.com" className="hover:underline">Contact</a>
+        <a href="#" className="hover:underline">Privacy</a>
+        <a href="#" className="hover:underline">Terms</a>
           </nav>
 
           <div className="text-sm text-gray-500">
