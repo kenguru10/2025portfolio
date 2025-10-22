@@ -1,6 +1,6 @@
 import Image from "next/image";
 import profileImg from "../public/profile.png";
-import { AWSIcon, CEXIcon, DesignIcon, DivingKpopIcon, GoogleIcon, HarvardIcon, HTMLIcon, InfrastructureIcon, JSIcon, NodeIcon, PHPIcon, PolyuIcon, PythonIcon, ReactIcon, SolutionIcon, WebsiteIcon } from "./icons";
+import { AWSIcon, CEXIcon, DesignIcon, DivingKpopIcon, GoogleIcon, HarvardIcon, HTMLIcon, InfrastructureIcon, JSIcon, NodeIcon, PHPIcon, PolyuIcon, PythonIcon, ReactIcon, SolutionIcon, StripeIcon, WebsiteIcon } from "./icons";
 
 // reference link: https://dribbble.com/shots/24759521-COZYDIADORA-Personal-Portfolio-Website
 
@@ -77,7 +77,7 @@ export default function Home() {
             <div className="w-12 h-12 p-3 ms-0 md:ms-5 bg-gray-200 rounded-full flex items-center justify-center">
               <DesignIcon className="w-full h-full text-[#6F43FB]" />
             </div>
-            <div className="ms-0 md:ms-10 flex-1">
+            <div className="ms-2 md:ms-10 flex-1">
               <p className="text-sm text-justify md:text-start text-gray-500 mt-2">
                 I have hands-on experience designing intuitive and visually appealing user interfaces, focusing on user experience and usability. I enjoy turning ideas into engaging digital products that are both functional and aesthetically pleasing.
               </p>
@@ -88,7 +88,7 @@ export default function Home() {
             <div className="w-12 h-12 p-3 ms-0 md:ms-5 bg-gray-200 rounded-full flex items-center justify-center">
               <WebsiteIcon className="w-full h-full text-[#6F43FB]" />
             </div>
-            <div className="ms-0 md:ms-10 flex-1">
+            <div className="ms-2 md:ms-10 flex-1">
               <p className="text-sm text-justify md:text-start text-gray-500 mt-2">
                 I am capable of building robust full-stack web applications, handling both frontend and backend development. My experience includes designing scalable architectures, integrating APIs, and deploying complete systems that deliver seamless user experiences.
               </p>
@@ -99,7 +99,7 @@ export default function Home() {
             <div className="w-12 h-12 p-3 ms-0 md:ms-5 bg-gray-200 rounded-full flex items-center justify-center">
               <SolutionIcon className="w-full h-full text-[#6F43FB]" />
             </div>
-            <div className="ms-0 md:ms-10 flex-1">
+            <div className="ms-2 md:ms-10 flex-1">
               <p className="text-sm text-justify md:text-start text-gray-500 mt-2">
                 I am able to solve a variety of web platform challenges, from optimizing performance and security to implementing custom features and integrations. My problem-solving skills enable me to deliver effective solutions tailored to your business needs, ensuring reliable and scalable web platforms.
               </p>
@@ -110,7 +110,7 @@ export default function Home() {
             <div className="w-12 h-12 p-3 ms-0 md:ms-5 bg-gray-200 rounded-full flex items-center justify-center">
               <InfrastructureIcon className="w-full h-full text-[#6F43FB]" />
             </div>
-            <div className="ms-0 md:ms-10 flex-1">
+            <div className="ms-2 md:ms-10 flex-1">
               <p className="text-sm text-justify md:text-start text-gray-500 mt-2">
                 I am experienced in setting up and managing infrastructure, including configuring VPS environments, deploying applications, and ensuring secure, scalable hosting solutions. I can help you establish a reliable foundation for your web projects, from initial setup to ongoing maintenance.
               </p>
@@ -133,6 +133,11 @@ export default function Home() {
           <GoogleIcon className="w-24 h-fit my-5 text-gray-800" />
           <p className="text-md text-gray-800 m-0">Google Cybersecurity (2025)</p>
           <a className="underline text-gray-800 text-xs mt-3 text-wrap" href="https://coursera.org/share/9947872b025d876b15c1ebd8cceca551">View Certificate</a>
+        </div>
+        <div className="bg-gray-200 rounded-lg flex flex-col px-10 py-5 min-h-fit md:min-h-[200px] w-full">
+          <AWSIcon className="w-12 h-fit my-5 text-gray-800" />
+          <p className="text-md text-gray-800 m-0">AWS Cloud Solutions Architect (2025)</p>
+          <a className="underline text-gray-800 text-xs mt-3 text-wrap" href="https://coursera.org/share/8d397e7cdf9f30882dd2852303962dbc">View Certificate</a>
         </div>
         <div className="bg-gray-200 rounded-lg flex flex-col px-10 py-5 min-h-fit md:min-h-[200px] w-full">
           <HarvardIcon className="w-12 h-fit my-5 text-gray-800" />

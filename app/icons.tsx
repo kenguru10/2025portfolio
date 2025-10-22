@@ -3,6 +3,7 @@ import HarvardLogo from "@/public/harvard.png";
 import CEXLogo from "@/public/cex.png";
 import PolyULogo from "@/public/polyu.png";
 import DivingKpopLogo from "@/public/divingkpop.png";
+import StripeLogo from "@/public/stripe.png";
 
 export const ReactIcon = ({ className }: { className: string }) => (
     <svg className={className} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 228">
@@ -191,4 +192,8 @@ export const PolyuIcon = ({ className }: { className: string }) => (
 
 export const DivingKpopIcon = ({ className }: { className: string }) => (
     <Image src={DivingKpopLogo} alt="DivingKpop Icons" className={className} />
+);
+
+export const StripeIcon = ({ className }: { className: string }) => (
+    <Image src={StripeLogo} alt="Stripe Icon" className={className} />
 );
